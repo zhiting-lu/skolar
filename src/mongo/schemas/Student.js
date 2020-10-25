@@ -15,6 +15,6 @@ schema.pre('save', function(next) {
   next();
 });
 
-const Student = mongoose.model('Student ', schema);
+const Student = mongoose.model('Student', schema);
 
 module.exports = Student;
